@@ -1,19 +1,19 @@
 
-            h1 {color: rgb(45, 45, 255);
+            h1 {color: rgb(0, 0, 0);
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 30px;
             }
 
-            h2 {color: rgb(21, 62, 0);
+            h2 {color: rgb(0, 0, 0);
             }
 
-            p {color:rgb(255, 69, 0);
+            p {color:rgb(0, 0, 0);
                 font-family: Arial, Helvetica, sans-serif;
             }
 
             header {
                 position: absolute;
-                width: 1349px;
+                width: 1348px;
                 height: 100px;
                 left: -1px;
                 top: 0px;
@@ -23,17 +23,17 @@
 
             main {
                 position: absolute;
-                width: 1349px;
-                height: 1100px;
+                width: 1348px;
+                height: 1095px;
                 left: 0px;
-                top: 140px;
+                top: 164px;
 
                 background: #00D770;
             }
 
             footer {
                 position: absolute;
-                width: 1349px;
+                width: 1348px;
                 height: 100px;
                 left: 0px;
                 top: 1180px;
@@ -43,10 +43,20 @@
 
             nav {
                 position: absolute;
-                width: 1349px;
+                width: 1348px;
                 height: 64px;
                 left: 0px;
                 top: 100px;
-                
+
                 background: #228300;
+            }
+
+            button {
+                width: 150px;
+                height: 35px;
+                left: 200px;
+                top: 0px;
+                margin-block-end: 10px;
+                
+                background: linear-gradient(0deg, #175800, #175800), #175800;
             }
