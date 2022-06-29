@@ -90,9 +90,6 @@
                 top: 2.5px;
                 background: url(Captura.png);
                 border-radius: 145.5px;
-            } .Ad-Roki {
-                position: absolute;
-                left: 545px;
             } .Es-HeaderH1 {
                 position: absolute;
                 left: 120px;
@@ -149,4 +146,26 @@
             } .TEC-ButtonBack {
                 position: absolute;
                 left: 1100px;
+            } .Flex1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            } .Flex1-T {
+                width: 500px;
+                height: 300px;
+            } .Flex2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            } .Flex2-T {
+                width: 500px;
+                height: 300px;
+            } .Flex3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            } .Flex3-T {
+                width: 400px;
+            } .Flex3-TB {
+                width: 400px;
             }
