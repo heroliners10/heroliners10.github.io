@@ -1,7 +1,7 @@
 
             header {
                 position: absolute;
-                width: 1305px;
+                width: 1350px;
                 height: 100px;
                 left: -1px;
                 top: 0px;
@@ -9,15 +9,16 @@
                 background: #9BFFAB;
             } main {
                 position: absolute;
-                width: 1305px;
+                width: 1350px;
                 height: 1095px;
                 left: -1px;
                 top: 164px;
 
                 background: #00D770;
-            } footer {
+            }
+            footer {
                 position: absolute;
-                width: 1305px;
+                width: 1350px;
                 height: 100px;
                 left: -1px;
                 top: 1180px;
@@ -25,33 +26,42 @@
                 background: #8CFFA5;
             } nav {
                 position: absolute;
-                width: 1305px;
+                width: 1350px;
                 height: 64px;
                 left: 0px;
                 top: 100px;
-
                 background: #228300;
+            } .MargenColorBotonNav {
+                color: #ffffff;
+                border-color: #ffff00;
             } button {
-                width: 150px;
-                height: 35px;
+                width: 250px;
+                height: 44px;
                 left: 200px;
                 top: 0px;
-                margin-block-end: 10px;
-                margin-right: 20px;
-                
+                margin-right: 50px;
                 background: linear-gradient(0deg, #175800, #175800), #175800;
             } .Blue-box {
+                margin: 5px;
+                margin-left: 200px;
                 background-color: #0000ff;
                 height: 100px;
                 width: 200px;
                 color: #ffffff;
                 border: 1px solid;
+                padding: 5px;
             } .Red-box {
+                margin: 5px;
+                margin-left: 370px;
                 background-color: #ff0000;
                 height: 100px;
                 width: 200px;
                 color: #ffff00;
                 border: 1px solid;
+                padding: 5px;
+            }  .contenedor {
+                display: flex;
+                padding: 5px;
             } .Ip-HeaderH1 {
                 position: absolute;
                 left: 120px;

@@ -2,6 +2,7 @@
 <html lang="en">
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Apartado Practico - Formulario Personal</title>
         <link rel="stylesheet" href="estilos.css">
     </head>
@@ -13,28 +14,30 @@
             </section>
                 <nav>
                     <ul>
-                        <a href="info-personal.html"><button><span style="color: rgb(253, 0, 0)">Info Personal</span></button></a>
-                        <a href="Animal-Domestico.html"><button><span style="color: blue">Animal Domestico</span></button></a>
-                        <a href="estudios.html"><button><span style="color: orange;">Estudios</span></button></a>
-                        <a href="Apartado-Practico.html"><button><span style="color: violet;">Apartado Practico</span></button></a>
+                        <a href="info-personal.html"><button class="MargenColorBotonNav"><span>Info Personal</span></button></a>
+                        <a href="Animal-Domestico.html"><button class="MargenColorBotonNav"><span>Animal Domestico</span></button></a>
+                        <a href="estudios.html"><button class="MargenColorBotonNav"><span>Estudios</span></button></a>
+                        <a href="Apartado-Practico.html"><button class="MargenColorBotonNav"><span>Apartado Practico</span></button></a>
                     </ul>
                 </nav>
         </header>
         <main>
-            <div class="Blue-box">
-                <h1>Caja azul</h1>
-                <p>Esto es una caja azul.</p>
-            </div>
-            <div class="Red-box">
-                <h1>Caja roja</h1>
-                <p>Esto es una caja roja.</p>
+            <div class="contenedor">
+                <div class="Blue-box" style="left: 30px;top: 3px;">
+                    <h1>Caja azul</h1>
+                    <p>Esto es una caja azul.</p>
+                </div>
+                <div class="Red-box" style="left: 30px;top: 107px;">
+                    <h1>Caja roja</h1>
+                    <p>Esto es una caja roja.</p>
+                </div>
             </div>
             <!-- Si el boton azul es precionado, alertar "Precionaste el boton Azul" -->
-            <button style="left: 230px;top: 35px;position: absolute;" class="Blue-button" onclick="alert('Sii, elegiste bien.')">Es de color azul.</button>
-            <button style="left: 400px;top: 35px;position: absolute;" class="E-Red-button" onclick="alert('No, es de color azul.')">Es de color rojo.</button>
+            <button style="left: 50px;top: 130px;position: absolute;" class="Blue-button" onclick="alert('Sii, elegiste bien.')">Es de color azul.</button>
+            <button style="left: 320px;top: 130px;position: absolute;" class="E-Red-button" onclick="alert('No, es de color azul.')">Es de color rojo.</button>
             <!-- Si el boton rojo es precionado, alertar "Precionaste el boton Rojo" -->
-            <button style="left: 230px;top: 135px;position: absolute;" class="E-Blue-button" onclick="alert('nop, es rojo.')">Es de color azul.</button>
-            <button style="left: 400px;top: 135px;position: absolute;" class="Red-button" onclick="alert('sii, ¿como lo sabias?')">Es de color rojo.</button>
+            <button style="left: 640px;top: 130px;position: absolute;" class="E-Blue-button" onclick="alert('nop, es rojo.')">Es de color azul.</button>
+            <button style="left: 910px;top: 130px;position: absolute;" class="Red-button" onclick="alert('sii, ¿como lo sabias?')">Es de color rojo.</button>
         </main>
         <footer>
             <div>
