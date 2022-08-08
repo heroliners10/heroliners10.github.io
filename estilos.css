@@ -1,171 +1,214 @@
+@font-face {
+    font-family: "Gotisch";
+    src: url(font-family/GrenzeGotisch-VariableFont_wght.ttf);
+}  header {
+    position: absolute;
+    width: 1305px;
+    height: 100px;
+    left: -1px;
+    top: 0px;
+    padding-left: 10px;
+    background: #9BFFAB;
+} main {
+    position: absolute;
+    width: 1305px;
+    height: 700px;
+    left: -1px;
+    top: 164px;
 
-            header {
-                position: absolute;
-                width: 1350px;
-                height: 100px;
-                left: -1px;
-                top: 0px;
-
-                background: #9BFFAB;
-            } main {
-                position: absolute;
-                width: 1350px;
-                height: 1095px;
-                left: -1px;
-                top: 164px;
-
-                background: #00D770;
-            }
-            footer {
-                position: absolute;
-                width: 1350px;
-                height: 100px;
-                left: -1px;
-                top: 1180px;
-
-                background: #8CFFA5;
-            } nav {
-                position: absolute;
-                width: 1350px;
-                height: 64px;
-                left: 0px;
-                top: 100px;
-                background: #228300;
-            } .MargenColorBotonNav {
-                color: #ffffff;
-                border-color: #ffff00;
-            } button {
-                width: 250px;
-                height: 44px;
-                left: 200px;
-                top: 0px;
-                margin-right: 50px;
-                background: linear-gradient(0deg, #175800, #175800), #175800;
-            } .Blue-box {
-                margin: 5px;
-                margin-left: 200px;
-                background-color: #0000ff;
-                height: 100px;
-                width: 200px;
-                color: #ffffff;
-                border: 1px solid;
-                padding: 5px;
-            } .Red-box {
-                margin: 5px;
-                margin-left: 370px;
-                background-color: #ff0000;
-                height: 100px;
-                width: 200px;
-                color: #ffff00;
-                border: 1px solid;
-                padding: 5px;
-            }  .contenedor {
-                display: flex;
-                padding: 5px;
-            } .Ip-HeaderH1 {
-                position: absolute;
-                left: 120px;
-                top: 15px;
-            } .Ip-HeaderImg {
-                position: absolute;
-                width: 95px;
-                height: 95px;
-                left: 5px;
-                top: 2.5px;
-                background: url(Captura.png);
-                border-radius: 145.5px;
-            } .Ip-MiFotoMain {
-                position: absolute;
-                left: 540px;
-            } .Ad-HeaderH1 {
-                position: absolute;
-                left: 120px;
-                top: 11px;
-                font-size: 24px;
-            } .Ad-HeaderImg {
-                position: absolute;
-                width: 95px;
-                height: 95px;
-                left: 5px;
-                top: 2.5px;
-                background: url(Captura.png);
-                border-radius: 145.5px;
-            } .Es-HeaderH1 {
-                position: absolute;
-                left: 120px;
-                top: 15px;
-            } .Es-HeaderImg {
-                position: absolute;
-                width: 95px;
-                height: 95px;
-                left: 5px;
-                top: 2.5px;
-                background: url(Captura.png);
-                border-radius: 145.5px;
-            } .Ap-HeaderH1 {
-                position: absolute;
-                left: 120px;
-                top: 15px;
-            } .Ap-HeaderImg {
-                position: absolute;
-                width: 95px;
-                height: 95px;
-                left: 5px;
-                top: 2.5px;
-                background: url(Captura.png);
-                border-radius: 145.5px;
-            } .De-HeaderH1 {
-                position: absolute;
-                left: 120px;
-                top: 15px;
-            } .De-HeaderImg {
-                position: absolute;
-                width: 95px;
-                height: 95px;
-                left: 5px;
-                top: 2.5px;
-                background: url(Captura.png);
-                border-radius: 145.5px;
-            } .TEC-HeaderImg {
-                position: absolute;
-                width: 95px;
-                height: 95px;
-                left: 5px;
-                top: 2.5px;
-                background: url(Captura.png);
-                border-radius: 145.5px;
-            } .TEC-HeaderH1 {
-                position: absolute;
-                left: 120px;
-                top: 19px;
-                font-size: 24px;
-            } .TEC-MainImg {
-                position: absolute;
-                width: 500px;
-                border-radius: 130px;
-            } .TEC-ButtonBack {
-                position: absolute;
-                left: 1100px;
-            } .Flex1 {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            } .Flex1-T {
-                width: 500px;
-                height: 300px;
-            } .Flex2 {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            } .Flex2-T {
-                width: 500px;
-                height: 300px;
-            } .Flex3 {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            } .Flex3-T {
-                width: 400px;
-            } .Flex3-TB {
-                width: 400px;
-            }
+    background: #00D770;
+} footer {
+    position: absolute;
+    width: 1305px;
+    height: 100px;
+    top: 864px;
+    left: -1px;
+    padding-left: 10px;
+    background: #8CFFA5;
+} nav {
+    position: absolute;
+    width: 1305px;
+    height: 64px;
+    left: 0px;
+    top: 100px;
+    background: #228300;
+} .MargenColorBotonNav {
+    position: relative;
+    top: -6px;
+    left: 30px;
+    color: rgb(9, 149, 196);
+    border-color: #ffff00;
+} button {
+    width: 250px;
+    height: 44px;
+    left: 200px;
+    top: 0px;
+    margin-right: 50px;
+    background: linear-gradient(0deg, #175800, #175800), #175800;
+} .Blue-box {
+    margin: 5px;
+    margin-left: 200px;
+    background-color: #0000ff;
+    height: 100px;
+    width: 200px;
+    color: #ffffff;
+    border: 1px solid;
+    padding: 5px;
+} .Red-box {
+    margin: 5px;
+    margin-left: 370px;
+    background-color: #ff0000;
+    height: 100px;
+    width: 200px;
+    color: #ffff00;
+    border: 1px solid;
+    padding: 5px;
+}  .contenedor {
+    display: flex;
+    padding: 5px;
+} .Ip-HeaderH1 {
+    position: absolute;
+    left: 120px;
+    top: 15px;
+} .Ip-HeaderImg {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 15px;
+    top: 2.5px;
+    background: url(Captura.png);
+    border-radius: 145.5px;
+} .Ip-MiFotoMain {
+    position: absolute;
+    left: 540px;
+} .Ad-HeaderH1 {
+    position: absolute;
+    left: 120px;
+    top: 11px;
+    font-size: 24px;
+} .Ad-HeaderImg {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 15px;
+    top: 2.5px;
+    background: url(Captura.png);
+    border-radius: 145.5px;
+} .Es-HeaderH1 {
+    position: absolute;
+    left: 120px;
+    top: 15px;
+} .Es-HeaderImg {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 15px;
+    top: 2.5px;
+    background: url(Captura.png);
+    border-radius: 145.5px;
+} .Ap-HeaderH1 {
+    position: absolute;
+    left: 120px;
+    top: 15px;
+} .Ap-HeaderImg {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 15px;
+    top: 2.5px;
+    background: url(Captura.png);
+    border-radius: 145.5px;
+} .De-HeaderH1 {
+    position: absolute;
+    left: 120px;
+    top: 15px;
+} .De-HeaderImg {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 15px;
+    top: 2.5px;
+    background: url(Captura.png);
+    border-radius: 145.5px;
+} .TEC-HeaderImg {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    left: 15px;
+    top: 2.5px;
+    background: url(Captura.png);
+    border-radius: 145.5px;
+} .TEC-HeaderH1 {
+    position: absolute;
+    left: 120px;
+    top: 19px;
+    font-size: 24px;
+} .TEC-MainImg {
+    position: absolute;
+    width: 500px;
+    border-radius: 130px;
+} .TEC-ButtonBack {
+    position: absolute;
+    left: 500px;
+    color: rgb(9, 149, 196);
+    border-color: #ffff00;
+    top: 10px;
+}.Flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+} .Flex1-T {
+    width: 500px;
+    height: 300px;
+} .Flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} .Ip-MainImgSebas {
+    margin: 30px;
+} .Flex2-T {
+    width: 500px;
+    height: 300px;
+} .Flex3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} .Flex3-T {
+    width: 400px;
+} .Flex3-TB {
+    width: 400px;
+} .Flex4 {
+    margin: 100px;
+} .MargenColorBoton {
+    color: rgb(9, 149, 196);
+    border-color: #ffff00;
+} .Deu-Introduccion {
+    width: 1000px;
+    margin: 30px;
+} .DEU-ButtonBack {
+    position: absolute;
+    left: 500px;
+    color: rgb(9, 149, 196);
+    border-color: #ffff00;
+    top: 10px;
+} .Deu-MainImg {
+    size: 1px;
+} .DEU-Aleman1 {
+    color: rgb(9, 149, 196);
+    border-color: #ffff00;
+} .Es-AlemanButton {
+    color: rgb(25, 0, 255);
+    border-color: #ffff00;
+    font-size: 25px;
+    font-optical-sizing: 66;
+    background-image: url(imagenes/BanderaAlemana.png);
+    font-family: "gotisch";
+} .DEU-Font-P {
+    font-family: "gotisch";
+    font-size: 20px;
+} .Flex-Deu-Contra {
+    display: flex;
+    width: 1000px;
+    margin: 30px;
+}
